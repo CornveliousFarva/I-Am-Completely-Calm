@@ -26,3 +26,34 @@ body{
   position: relative;
   transform: sacle(1);
 }
+
+.circle{
+  background-color: #010;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.gradient-circle{
+  background: conic-gradient(
+    #55b7a1 0%,
+    #4ca490 40%,
+    #bbb 40%,
+    #bbb 60%,
+    #336d63 60%,
+    #2a5b51 100%
+  );
+  height: 320px;
+  width: 320px;
+  z-index: -2;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+
