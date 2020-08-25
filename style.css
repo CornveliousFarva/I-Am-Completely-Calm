@@ -5,7 +5,7 @@
 }
 
 body{
-  background: #224411 url(images/calm_face.jpg);
+  background: url(images/calm_face.jpg);
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   min-height: 100vh;
