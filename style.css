@@ -3,3 +3,26 @@
 * {
     box-sizing: border-box
 }
+
+body{
+  background: #224411 url(images/calm_face.jpg);
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  transform: sacle(1);
+}
